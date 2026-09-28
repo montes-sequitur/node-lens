@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Temporary and log files
+*.tmp
+*.log
+
+# OS generated files (macOS)
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Test coverage and reports
+coverage/
+.nyc_output/

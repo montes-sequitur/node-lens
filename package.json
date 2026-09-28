@@ -1,0 +1,30 @@
+{
+  "name": "ping",
+  "version": "1.0.0",
+  "description": "little tester for node with typescript and eslint",
+  "license": "ISC",
+  "author": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "check": "tsx src/index.ts --check",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node --import tsx --test test/verify.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "eslint": "^9.22.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0"
+  },
+  "dependencies": {
+    "commander": "^15.0.0",
+    "dotenv": "^18.0.4",
+    "picocolors": "^1.1.1",
+    "vhtml": "^2.2.0"
+  }
+}
